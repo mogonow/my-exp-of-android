@@ -6,3 +6,7 @@ new File("/tmp/one/two/three").mkdirs();
 执行后， 会建立tmp/one/two/three四级目录
 new File("/tmp/one/two/three").mkdir();
 则不会建立任何目录， 因为找不到/tmp/one/two目录， 结果返回false
+
+
+应用启动会有黑屏1秒左右现象。
+改变开屏页theme，添加window:background为开屏页图片。
